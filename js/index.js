@@ -15,6 +15,7 @@ let l = "";
 function getRandomInt() {
   aA = Math.floor(Math.random() * 100);
   cC = Math.floor(Math.random() * 100);
+  gg();
 
   a.textContent = aA;
   c.textContent = cC;
@@ -71,4 +72,4 @@ const verify = () => {
 
 ok.addEventListener("click", verify);
 reset.addEventListener("click", getRandomInt);
-reset.addEventListener("click", gg);
+// reset.addEventListener("click", gg);
